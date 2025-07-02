@@ -9,8 +9,7 @@ cd octra-auto
 pip install aiohttp pynacl
 ```
 
-edit dulu wallets.txt dan p.txt
-wallet.txt ganti seperti ini
+edit dulu wallets.txt dengan adress dan pk kelean
 ```sh
 oct4xxx1|||base64key1
 oct4xxx2|||base64key2
@@ -18,8 +17,7 @@ oct4xxx3|||base64key3
 oct4xxx4|||base64key4
 oct4xxx5|||base64key5
 ```
-dan isi p yaitu address yang mau kita send/penerima
-ini isinya 
+dan edit isi p.txt yaitu address yang mau kita send/penerima 
 ```sh
 oct4xxx1
 oct4xxx2
