@@ -13,7 +13,7 @@ def build_tx(sender, priv_b64, amount, nonce, to_):
     pub = base64.b64encode(sk.verify_key.encode()).decode()
     tx = {
         "from": sender,
-        "to_": to_,
+        "to": to_,
         "amount": str(int(amount * μ)),
         "nonce": nonce,
         "ou": "1" if amount < 1000 else "3",
