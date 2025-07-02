@@ -3,7 +3,7 @@ from nacl.signing import SigningKey
 
 RPC = 'https://octra.network'
 μ = 1_000_000
-AMOUNT = 1.0  # jumlah yang di kirim 
+AMOUNT = 1.0  # dalam OCT
 RECIPIENT_FILE = "p.txt"
 WALLET_FILE = "wallets.txt"
 DELAY = 30  # detik antar TX
@@ -13,7 +13,7 @@ def build_tx(sender, priv_b64, amount, nonce, to_):
     pub = base64.b64encode(sk.verify_key.encode()).decode()
     tx = {
         "from": sender,
-        "to": to_,
+        "to_": to_,
         "amount": str(int(amount * μ)),
         "nonce": nonce,
         "ou": "1" if amount < 1000 else "3",
