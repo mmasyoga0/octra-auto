@@ -1,4 +1,3 @@
-# Dillinger
 ## _AUTO TX BANYAK WALLET KE BANYAK ADDRESS (MANY TO MANY)_
 
 ## Installation
