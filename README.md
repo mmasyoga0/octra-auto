@@ -34,6 +34,7 @@ exploler octra : https://octrascan.io/
 https://octra-check-tx.vercel.app/
 
 ### Note : jika di vps pas ```install pip install aiohttp pynacl``` atau error pas run ```python3 multi.py``` pake cara ini 
+jika banyak wallet dan tx banyak pastikan membuat screen terlebih dahulu
 
 ```sh
 sudo apt install python3-venv
