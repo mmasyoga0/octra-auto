@@ -4,9 +4,9 @@
 
 
 ```sh
+pip install aiohttp pynacl
 git clone https://github.com/kenjisubagja/octra-auto
 cd octra-auto
-pip install aiohttp pynacl
 ```
 
 edit dulu wallets.txt dengan adress dan pk kelean
@@ -29,5 +29,22 @@ oct4xxx5
 ```sh
 python3 multi.py
 ```
-### AND BUM JALAN KAN AJIG OWKOWKOWKOW ###
 exploler octra : https://octrascan.io/
+# Cek tx multi address #
+https://octra-check-tx.vercel.app/
+
+### Note : jika di vps pas ```install pip install aiohttp pynacl``` atau error pas run ```python3 multi.py``` pake cara ini 
+
+```sh
+sudo apt install python3-venv
+```
+```sh
+python3 -m venv venv
+```
+```sh
+source venv/bin/activate
+```
+```sh
+pip install aiohttp pynacl
+```
+## Bang Kenji subagja ganteng 😆 ##
