@@ -48,4 +48,7 @@ source venv/bin/activate
 ```sh
 pip install aiohttp pynacl
 ```
+```sh
+python3 multi.py
+```
 ## Bang Kenji subagja ganteng 😆 ##
